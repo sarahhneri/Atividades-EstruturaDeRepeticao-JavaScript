@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repetir uma frase 7 vezes</title>
+</head>
+<body>
+    <button onclick="repetir()">Repetir</button>
+    <div id="div_mensagem"></div>
+</body>
+</html>
+
+<script>
+    function repetir() {
+        var frase = "Estrutura de repetição - Js";
+        
+        for (i = 1; i <= 7; i++) {
+            div_mensagem.innerHTML += `${i} - ${frase}<br>`
+        }
+    }
+</script>
